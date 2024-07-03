@@ -1,4 +1,24 @@
-# Work Showcase Kyle Dale
-Showcase of completed projects and work by Kyle Dale. Please browse the various branches to see relevent work for that course or project. 
+# CS360-Mobile-Arch-and-Programming
 
-Access to the original project repositories can be granted upon request. As students, we were asked to keep such repositories private to protect the fidelity of our work. Thus I created this repository to display relevent accomplishments and projects for prospective employers. 
+<b>Requirements and goals of the app.</b>
+The goal of the project I selected was to create an inventory application that can be used to track items in a warehouse. The application was built in Android studio utilizing Java and runs on API 28+, with a coverage of ~88% (as of writing this).  The app was required to have a login screen and associated login database (DB), as well as a grid to display the items in the associated item DB. Additionally, CRUD functionality was required to accomplish the addition and removal of items from the DB. 
+Screens and features necessary to support user-centered UI.
+In order to accomplish this, the application included a variety of screens and functionalities including but not limited to:
+Login Page (with a LoginDB for users)
+Home page with scrolling list of items
+Top app bar and Bottom nav bar (every widget functions)
+SMS capability (for alerts)
+Account, Settings, Item Add, and Phone # entry screens
+As mentioned previously, the application requires the usage of multiple DB and accomplishes this with SQLite. The ‘grid’ layout for the items is accomplished using a recyclerview which can be scrolled to view the items. 
+
+<b>Process of coding app.</b>
+Throughout the process of this project, it was a necessity to adopt an incremental approach to development. As this project ultimately encompassed the majority of our course, we were constantly working toward the end result throughout each module. As such, each sprint (week) further honed the vision I had for the application as well as how it would be accomplished specifically. Incrementally developing the design and application itself allowed me to develop efficiently, focusing on specific parts and ensuring functionality before moving on. This reduced the risk of bugs that can persist through multiple levels of development and become increasingly difficult to ‘weed-out’. With the incremental approach to testing, I was able to meet my development goals, as well as add additional functionality I had not planned, like a working account and settings page, for example. Additionally, this approach allowed me to see my project many times with ‘fresh eyes’, making debugging much easier as well as providing ample opportunity to challenge and cement design choices. Ultimately, the incremental approach was essential for my success in this project. 
+
+<b>Ensuring code was functional.</b>
+As mentioned previously, my testing followed the same incremental approach as development. After the implementation of each feature, I would ensure to build and emulate the application to not only see if the added feature functioned as expected, but that it did not introduce new vulnerabilities to the application. By following this approach, my final round of testing to ensure that all required and additional functionality worked properly was relatively seamless. I was able to verify each of the required functionalities and ensure that the overall behavior of the app functioned as predicted. As with development, the incremental approach to testing was essential for my success in this project. 
+
+<b>Innovation to overcome challenges.</b>
+Throughout the course of this project and the various stages of development, I was forced to continuously innovate to ensure deadlines were reached with the proper functionality included. This began with the design of the application itself, as I had to be cognisant of the expected quality of the application, were it to be competitive once published, as well as my limited capability as a new Android developer working solo within the timeframe. Thankfully, the iterative approach to development afforded me the time to not only familiarize myself with Android Studio, but research and implement the ‘best’ solutions for each portion of my application. This resulted in a clean and familiar product that would be easy for new and returning users alike to navigate.    
+
+<b>Specific components I was particularly successful in.</b>
+I believe I was particularly successful in two regards with this project. The first is the UI I was able to implement. Although somewhat rough when compared to the likes of YouTube, for my first foray into Android Studio, I am proud of the UI’s ease of use and familiarity. New users will find the application easy to navigate and almost immediately understandable in its function and navigation. This was accomplished through a variety of factors, including design strategy, theme, and widget implementation. The second aspect I believe I was particularly successful in is my app's readability. Due to the time afforded for proper organization of the project, as well as proper naming convention and ample notation, a developer could continue work where I left off and find it to be an easy transition. It is important to me as a developer to ensure that my work is maintainable and readable, so any developer continuing where I left off may readily digest the structure and purpose of the code before them. 
