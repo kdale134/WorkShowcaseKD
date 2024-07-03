@@ -1,4 +1,37 @@
-# Work Showcase Kyle Dale
-Showcase of completed projects and work by Kyle Dale. Please browse the various branches to see relevent work for that course or project. 
+# Software Reverse Engineering
 
-Access to the original project repositories can be granted upon request. As students, we were asked to keep such repositories private to protect the fidelity of our work. Thus I created this repository to display relevent accomplishments and projects for prospective employers. 
+<b>Reverse engineering IoT: Why can reverse engineering be used to improve cloud-based information technology (IT) systems?</b>
+	There are many ways in which reverse engineering can be utilized to improve cloud-based systems including security auditing, increasing interoperability, and aiding in developer comprehension. Due to the relatively young age and nature of cloud-based IT systems, there are legitimate security concerns that need to be addressed before a company or institution is to adopt the practice. As Rahman and Bisong touched upon, “deploying cloud computing in an enterprise infrastructure brings significant security concerns; therefore successful implementation of cloud computing in an enterprise requires proper planning and understanding of emerging risks, threats, vulnerabilities, and countermeasures” (Oladipo, 2013). Through the use of reverse engineering on potential systems to be integrated, developers and testers can gain a much deeper understanding of the program's function, logic flow, and operational processes. This can provide invaluable contextual information, as well as be an effective tool for debugging. Careful analysis during reversing can highlight many defects or vulnerabilities that may have gone otherwise unnoticed. Lastly, reversing can aid in the interoperability of various devices with one another. One of the most powerful advantages to reversing is the ability to patch and change code (Oladipo, 2013). Through the use of patching during reversing, developers are able to make otherwise incompatible devices function properly with one another, potentially increasing access to the cloud resources. 
+ 
+<b>Patching: How is reverse engineering used to patch cloud-based IT systems?</b>
+	As mentioned previously, patching is a powerful advantage to reversing, and can be simply conceptualized as adding a patch to a blanket. Specifically, patching allows developers to add commands or change the operation of function calls, which opens up the possibility of adding new features, removing broken features, and fixing vulnerabilities within the source code (Oladipo, 2013). Utilizing patching, developers are able to manipulate source code to alter a program's function or operation, allowing for the introduction of interoperability, or ironing out defects. 
+
+<b>Vulnerability: Why is it that so many IoT devices are already infected with malware and many more are vulnerable to exploitation?</b>
+	There are many factors that may and do cause IoT devices to lack proper security. These include but are not limited to a lack of security by design, remote access capabilities, weak authentication, limited resources, and the proliferation of devices. Additionally, the relative ease of compromising modern IoT systems is only compounded by the lack of understanding on the consumers’ part regarding security. 
+	Many IoT devices today are not designed with security at the forefront of consideration, and thus do not abide by security by design. As an example, after extracting the login credentials of the ProVision PT-838 security camera, the modified botnet was able to successfully connect to the ProVision PT-737E security camera due to the credentials shared between the cameras of the same manufacturer (Shwartz et al, 2018). This lack of intrinsic security in the design of the device opens many avenues of attack for malicious users, especially as the proliferation of IoT devices only continues to increase. It is important that manufacturers consider security between the various IoT devices they manufacture, to prevent attack vectors for malicious users. 
+	The lack of intrinsic security within the design of many IoT devices is only compounded by the fact that the devices inherently contain connectability to the internet and weak authentication/outdated firmware. In an analysis of a public security camera, auditors found that the device was operating on old and outdated firmware, allowing any reverser to obtain the version information and easily search the internet for known vulnerabilities (Shwartz et al, 2018). To further the issue, most IoT devices come with weak default passwords that many users are not aware they need to change, leading to an easy brute-force vector of attack. 
+	Lastly, when discussing IoT devices there is always the concern of resource usage. Many IoT devices simply lack the computing power to integrate powerful and modern firewalls and antivirus software (Yasar et al, 2023). As a result, many IoT devices lack adequate, or any firewalls, antivirus software, or often encryption. This blatant lack of security would obviously open many attack vectors to malicious users. 
+
+<b>Impact: How does reverse engineering impact new IT technologies, such as IoT and cloud computing?</b>
+	As discussed, reversing has a marketed impact in many areas concerning new IT technologies. Reversing can be utilized to increase security through audits or patching, introduce interoperability through patching, and provide developers a detailed look into the program's flow and logic. With new technologies, or inherently at-risk technologies like many IoT devices, this can provide invaluable security insight into a device, allowing engineers to then patch the program and fix them. Additionally, the introduction of interoperability can extend the life and relevancy of devices far past what would otherwise be possible, ultimately increasing the efficiency of manufacturing and the device itself. Ultimately whether dealing with new or legacy technologies, a knowledge of reversing principles can offer invaluable aid and insight for developers. 
+
+<b>Future: Are there other new technologies that you can think of that either already use reverse engineering or should consider using reverse engineering in the future?</b>
+	There are many sectors that utilize the benefits of reversing to improve and iterate on many IoT device designs. Two of the largest adopters have been the healthcare and automotive industries. Due to the widespread adoption of IoT devices within these fields, and the previously mentioned security risks inherent to IoT devices, the automotive and healthcare industries have also been hit particularly hard by the security deficits (Yasar et al, 2023). A general lack of industry foresight both in the design and usage of these devices has resulted in a disastrous lack of security. These industries in particular, as well as a society as a whole, need to place a greater emphasis on device security, especially as attacks continue to rise. Ultimately, reversing should be a common practice utilized to understand and audit projects. Through this practice developers and users can ensure that they are mindful, knowledgeable, and able to handle the various security threats common in our modern world. 
+
+
+
+
+
+
+
+
+
+
+References
+O. Shwartz, Y. Mathov, M. Bohadana, Y. Elovici and Y. Oren, "Reverse Engineering IoT Devices: 
+
+Effective Techniques and Methods," in IEEE Internet of Things Journal, vol. 5, no. 6, pp. 4965-4976, Dec. 2018, doi: 10.1109/JIOT.2018.2875240. 
+Oladipo, F., & Anigbogu, G. (2013, January). The Privacy Implications of Cloud Computing in 
+the Context of Software Reverse Engineering. ResearchGate. https://www.researchgate.net/publication/279533418_The_Privacy_Implications_of_Cloud_Computing_in_the_Context_of_Software_Reverse_Engineering. 
+Yasar, K., Shea, S., & Wigmore, I. (2023, August 7). What is IOT security?: TechTarget. IoT 
+Agenda. https://www.techtarget.com/iotagenda/definition/IoT-security-Internet-of-Things-security. 
