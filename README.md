@@ -1,4 +1,2 @@
-# Work Showcase Kyle Dale
-Showcase of completed projects and work by Kyle Dale. Please browse the various branches to see relevent work for that course or project. 
-
-Access to the original project repositories can be granted upon request. As students, we were asked to keep such repositories private to protect the fidelity of our work. Thus I created this repository to display relevent accomplishments and projects for prospective employers. 
+# Secure Coding
+This branch contains the files for the presentation given at the end of Secure Coding, utilizing examples of code. The presentation covers a wide range of topics from Triple-A, Defense in Depth, standards and principles, and more. For more examples of code throughout the semester, please request access to the original repository. 
