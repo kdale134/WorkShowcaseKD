@@ -1,4 +1,3 @@
-# Work Showcase Kyle Dale
-Showcase of completed projects and work by Kyle Dale. Please brosw the various branches to see relevent work for that course or project. 
+# Full Stack Dev I
+This branch contains the files for the Full Stack application that was built utilizing the MVC pattern and MEAN stack for the CS 470 Full Stack Dev I course. Included is the Software Design Document which details the goal and purpose of the application, as well as steps taken to create it. For context, the project was defined as follows "Travlr Getaways requires a travel booking site so their customers can book travel packages. The site must allow users to create an account, search for packages via multiple filters, book vacation packages, and view itineraries prior to trips. Additionally Travlr Getaways would like an admin-only site where administrators are able to maintain the site and its functionality." 
 
-Access to the original project repositories can be granted upon request. As students, we were asked to keep such repositories private to protect the fidelity of our work. Thus I created this repository to display relevent accomplishments and projects for prospective employers. 
