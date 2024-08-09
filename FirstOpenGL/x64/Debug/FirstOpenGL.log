@@ -1,0 +1,26 @@
+﻿  OpenGLTest.cpp
+C:\Users\hocke\Source\repos2\FirstOpenGL\OpenGLTest.cpp(1311,5): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\hocke\Source\repos2\FirstOpenGL\OpenGLTest.cpp(3077,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\hocke\Source\repos2\FirstOpenGL\OpenGLTest.cpp(3086,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\hocke\Source\repos2\FirstOpenGL\OpenGLTest.cpp(3087,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\hocke\Source\repos2\FirstOpenGL\OpenGLTest.cpp(3192,34): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\hocke\Source\repos2\FirstOpenGL\OpenGLTest.cpp(3290,33): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\hocke\Source\repos2\FirstOpenGL\OpenGLTest.cpp(3352,33): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\hocke\Source\repos2\FirstOpenGL\OpenGLTest.cpp(3367,78): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\hocke\Source\repos2\FirstOpenGL\OpenGLTest.cpp(3403,33): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\hocke\Source\repos2\FirstOpenGL\OpenGLTest.cpp(3418,80): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\hocke\Source\repos2\FirstOpenGL\OpenGLTest.cpp(3462,33): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\hocke\Source\repos2\FirstOpenGL\OpenGLTest.cpp(3534,34): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\hocke\Source\repos2\FirstOpenGL\OpenGLTest.cpp(3549,84): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\hocke\Source\repos2\FirstOpenGL\OpenGLTest.cpp(3556,85): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\hocke\Source\repos2\FirstOpenGL\OpenGLTest.cpp(3563,83): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\hocke\Source\repos2\FirstOpenGL\OpenGLTest.cpp(3570,84): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\hocke\Source\repos2\FirstOpenGL\OpenGLTest.cpp(3603,34): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\hocke\Source\repos2\FirstOpenGL\OpenGLTest.cpp(3614,76): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\hocke\Source\repos2\FirstOpenGL\OpenGLTest.cpp(3649,34): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\hocke\Source\repos2\FirstOpenGL\OpenGLTest.cpp(3671,76): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Users\hocke\Source\repos2\FirstOpenGL\OpenGLTest.cpp(3706,33): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\hocke\Source\repos2\FirstOpenGL\OpenGLTest.cpp(3768,34): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\hocke\Source\repos2\FirstOpenGL\OpenGLTest.cpp(3795,33): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\hocke\Source\repos2\FirstOpenGL\OpenGLTest.cpp(3820,33): warning C4305: '=': truncation from 'double' to 'float'
+  FirstOpenGL.vcxproj -> C:\Users\hocke\Source\repos2\FirstOpenGL\x64\Debug\FirstOpenGL.exe
