@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ * CS360-Mobile Architecture and Programming
+ * Project Three
+ * Kyle Dale
+ * 10/15/2023
+ * Professor DiMarzio
+ * activity_itementer.xml
+-->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Item Name -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="360dp"
+        android:layout_height="221dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tslogo" />
+
+    <EditText
+        android:id="@+id/editTextItemName"
+        android:layout_width="381dp"
+        android:layout_height="58dp"
+        android:hint="Item Name"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineVerticalCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Item Quantity -->
+    <EditText
+        android:id="@+id/editTextItemQuantity"
+        android:layout_width="383dp"
+        android:layout_height="60dp"
+        android:hint="Item Quantity"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guidelineVerticalCenter" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/buttonSubmitItem"
+        android:layout_width="109dp"
+        android:layout_height="62dp"
+        android:backgroundTint="@color/primary_color"
+        android:text="Submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextItemQuantity" />
+
+    <!-- Guideline for vertical center -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineVerticalCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

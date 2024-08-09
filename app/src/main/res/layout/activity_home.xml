@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ * CS360-Mobile Architecture and Programming
+ * Project Three
+ * Kyle Dale
+ * 10/15/2023
+ * Professor DiMarzio
+ * activity_home.xml
+-->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <!-- Include the Custom Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/primary_color"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Left-aligned image -->
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="16dp"
+            android:contentDescription="App Logo"
+            android:src="@mipmap/tslogoicon" />
+
+        <!-- Right-aligned icons -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="end|center_vertical"
+            android:orientation="horizontal">
+
+            <!-- Add a spacer to push the icons to the right -->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <!-- Alert Icon -->
+            <ImageView
+                android:id="@+id/alertIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginEnd="0dp"
+                android:contentDescription="Alert Icon"
+                android:src="@mipmap/alerticon"
+                android:onClick="onAlertIconClick" />
+
+            <!-- Search Icon -->
+            <ImageView
+                android:id="@+id/searchIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginEnd="0dp"
+                android:contentDescription="Search Icon"
+                android:src="@mipmap/searchicon"
+                android:onClick="onSearchIconClick" />
+
+            <!-- Account Icon -->
+            <ImageView
+                android:id="@+id/accountIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginEnd="0dp"
+                android:onClick="onAccountIconClick"
+                android:contentDescription="Account Icon"
+                android:src="@mipmap/accounticon" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- Include the content section -->
+    <FrameLayout
+        android:id="@+id/contentSection"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.75"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewItems"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical" />
+
+    </FrameLayout>
+
+    <!-- Bottom Nav Bar -->
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/primary_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/contentSection">
+
+        <ImageView
+            android:id="@+id/iconLeft"
+            android:layout_width="78dp"
+            android:layout_height="84dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="start"
+            android:layout_marginBottom="15dp"
+            android:clickable="true"
+            android:contentDescription="Left Icon"
+            android:focusable="true"
+            android:onClick="onHomeButtonClick"
+            android:src="@drawable/homeicon" />
+
+        <ImageView
+            android:id="@+id/iconCenter"
+            android:layout_width="78dp"
+            android:layout_height="68dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:contentDescription="Center Icon"
+            android:focusable="true"
+            android:onClick="onCenterIconClick"
+            android:src="@drawable/addicon" />
+
+        <ImageView
+            android:id="@+id/iconRight"
+            android:layout_width="78dp"
+            android:layout_height="72dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="end"
+            android:layout_marginBottom="15dp"
+            android:clickable="true"
+            android:contentDescription="Right Icon"
+            android:focusable="true"
+            android:onClick="onSettingsButtonClick"
+            android:src="@drawable/settingicon" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

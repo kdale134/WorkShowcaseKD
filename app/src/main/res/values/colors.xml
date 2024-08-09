@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ * CS360-Mobile Architecture and Programming
+ * Project Three
+ * Kyle Dale
+ * 10/15/2023
+ * Professor DiMarzio
+ * colors.xml
+-->
+
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary_color">#519AF4</color> <!-- App primary color -->
+    <color name="neutral_color">#F2F3F5</color> <!-- App neutral color -->
+    <color name="Red">#FFFF0000</color>
+</resources>
