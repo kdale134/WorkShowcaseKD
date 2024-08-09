@@ -1,0 +1,8 @@
+MATH201,Discrete Mathmatics,,
+CSCI 300,Introduction to Algorithms,CSCI 200,Math 201
+CSCI 350,Operating Systems,CSCI 300,
+CSCI 101,Intro to Programming in C++,CSCI 100,
+CSCI  100,Intro to CS,,
+CSCI 301,Advanced Programming C++,CSCI 101,
+CSCI 400,Large Software Dev,CSCI 301,CSCI 350
+CSCI 200,Data Structures,CSCI 101,
